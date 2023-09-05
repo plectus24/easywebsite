@@ -79,6 +79,16 @@ ul{
     color: #24262b;
     background: #ffffff;
 }
+.copyright{
+    padding-top: 4rem;
+    text-align: center;
+    color: #bbbbbb;
+    letter-spacing: 0.07rem;
+}
+.copyright a{
+    cursor: pointer;
+    color: #bbbbbb;
+}
 
 /* */
 @media(max-width:767px){
