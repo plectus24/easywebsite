@@ -150,6 +150,7 @@ header::before{
 }
 .offers .offer_heading{
     width: 80%;
+    padding-right: 8rem;
 }
 .offers .offer_heading h2{
     font-size: 3.5rem;
@@ -772,10 +773,10 @@ p{
 }
 .offers .offer_heading{
     width: 80%;
-    margin: 1rem;
+    padding-right: 3rem;
 }
 .offers .offer_heading h2{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 .offers .offer_heading p{
     letter-spacing: 0.03rem;
@@ -826,8 +827,14 @@ p{
 .trainer .people .team1 .pro{
     padding: 0 15px 5px 15px;
 }
-
+#services h1{
+    font-size: 2rem;
 }
+#trust h1{
+    font-size: 2rem;
+}
+}
+
 @media (max-width:769px){
    /* About Page */
    #about-container{
@@ -840,8 +847,15 @@ p{
         width: 50px;
         height: auto;
     }
+    .offers{
+        padding: 5vw 5vw 1vw 5vw;
+    }
+    .offers .offer_heading{
+        width: 80%;
+        padding-right: 3rem;
+    }
     .offers .offer_heading h2{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .offers .offer_heading .btn1{
         padding: 1rem 3rem;
@@ -854,8 +868,14 @@ p{
         width: 100%;
         margin-bottom: 1.7rem;
     }
+    .trainer .about h2{
+        font-size: 1.5rem;
+    }
     .trainer .people{
         width: 100%;
+    }
+    #services h1{
+        font-size: 1.5rem;
     }
     /*  contact */
     #contact{
