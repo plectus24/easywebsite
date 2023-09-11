@@ -103,7 +103,7 @@ header::before{
 }
 #home h2{
     color: #fefefe;
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     letter-spacing: 1px;
    
 }
@@ -153,7 +153,7 @@ header::before{
     padding-right: 8rem;
 }
 .offers .offer_heading h2{
-    font-size: 3.5rem;
+    font-size: 2.5rem;
 }
 .offers .offer_heading p{
     color: #7f8c8d;
@@ -176,6 +176,7 @@ header::before{
     background-color: #fff;
     border: 1px solid #039d5c;
 }
+
 .offers .offer_list{
     width: 90%;
 }
@@ -186,9 +187,8 @@ header::before{
 }
 .offers .offer_list .list .list_icons {
     padding: 1rem 1rem;
-    font-size: 1.5rem;
     background-color: #039d5c;
-    color: #fff;
+    border: 1px solid #039d5c;
     border-radius: 5rem;
 }
 .offers .offer_list .list .list_name{
@@ -549,6 +549,55 @@ p{
     margin-bottom: 0.8rem;
 }
 /* details about us and working hours */
+#gallery h1{
+    text-align: center;
+    padding-top: 6rem;
+}
+#gallery p{
+    text-align: center;
+    font-size: 2rem;
+}
+.gallery{
+    width: 100%;
+    min-height: 70vh;
+   /*  display: flex;
+    align-items: center;
+    justify-content: center; */
+    padding: 8vw 8vw 4vw 8vw;
+}
+.gallery-img{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+.gallery-img img{
+    width: 100%;
+}
+.btn3{
+    padding: 15px 90px;
+   text-align: center;
+    border-radius: 30px;
+    margin-top: 30px;
+    color:#fff;
+    background-color: #039d5c;
+}
+.btn3:hover{
+    background-color: #fff;
+    color: #039d5c;
+    border: 1px solid #039d5c;
+}
+.btn3 a{
+    color: #000;
+    font-size: 1rem;
+}
+#gal{
+    padding: 8vw 8vw 4vw 8vw;
+   background: #f9f9f9;
+   text-align: center;
+}
+.gal h1{
+    font-size: 2.2rem;
+}
 #contact .getin{
     width: 350px;
 }

@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Easy Webiste</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lightbox.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <header class="nav">
+        <!-- <div class="logo">Easy Group</div> -->
+        <img id="menu-btn" class="logo" src="img/logo.jpg" alt="">
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="nav-bar">
+            <ul>
+                <li><a href="index.html" >Accueille</a></li>
+                <li><a  href="about.html">A Propos</a></li>
+                <li><a  href="service.html">Nos services</a></li>
+                <li><a class="active" href="realisation.html">Nos galléries</a></li>
+                <li><a   href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+   </header>
+   <section id="about-home">
+    <h2>Gallery Easy Group Tech</h2>
+ </section>
+   <section id="gallery">
+    <h1>Nos gallery</h1>
+    <p>Engagée pour la satisfaction du client en toute sécurité</p>
+    <div class="gallery">
+        <div class="gallery-img">
+            <a href="img/ph1.jpg" data-lightbox="models" data-title="image1">
+                <img src="img/ph1.jpg" >
+            </a>
+            <a href="img/ph2.jpg" data-lightbox="models" data-title="image2">
+                <img src="img/ph2.jpg" >
+            </a>
+            <a href="img/ph3.jpg" data-lightbox="models" data-title="image3">
+                <img src="img/ph3.jpg" >
+            </a>
+            <a href="img/ph4.jpg" data-lightbox="models" data-title="image4">
+                <img src="img/ph4.jpg" >
+            </a>
+            <a href="img/ph5.jpg" data-lightbox="models" data-title="image5">
+                <img src="img/ph5.jpg" >
+            </a>
+            <a href="img/ph6.jpg" data-lightbox="models" data-title="image6">
+                <img src="img/ph6.jpg" >
+            </a>
+        </div>
+   </div>
+   </section>
+   <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">about us</a></li>
+                    <li><a href="service.html">services</a></li>
+                    <li><a  href="realisation.html">realisation</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Nos activités</h4>
+                <ul>
+                    <li><a href="#">Installation</a></li>
+                    <li><a href="#">Maintenance</a></li>
+                    <li><a href="#">Dépannage</a></li>
+                    <li><a href="#">Eclairage</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Autre services</h4>
+                <ul>
+                    <li><a href="#">Hôtel</a></li>
+                    <li><a href="#">Môtel</a></li>
+                    <li><a href="#">vente des Accessoires</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">Copyright projet Easy Group Technology Cam Sarl Power by <a href="mailto:nwouatouyvanienoelle@gmail.com">Yvanie Noelle</a></p></p>
+    </div>
+</footer>
+<script >
+    hamburger = document.querySelector(".hamburger");
+hamburger.onclick = function() {
+    navBar = document.querySelector(".nav-bar");
+    navBar.classList.toggle("active");
+}
+</script>
+<script src="js/lightbox-plus-jquery.js"></script>
+</body>
+</html>
