@@ -229,7 +229,7 @@ header::before{
     align-items: center;
 }
 .trainer .people .team1{
-    width: 45%;
+    width: 50%;
     height: auto;
     box-sizing: border-box;
     background: #fff;
@@ -357,9 +357,9 @@ header::before{
 #features .fea-box:hover{
     box-shadow: 5px 5px #fff;
 }
-#features .fea-box i{
-    font-size: 2.2rem;
-    color: #039d5c;
+#features .fea-box img{
+        object-fit: cover;
+  
 }
 #features .fea-box h3{
     font-size: 1.2rem;
