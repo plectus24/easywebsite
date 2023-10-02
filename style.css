@@ -583,12 +583,15 @@ p{
 }
 .btn3:hover{
     background-color: #fff;
-    color: #039d5c;
     border: 1px solid #039d5c;
 }
 .btn3 a{
-    color: #000;
-    font-size: 1rem;
+    color: #fff;
+    font-size: 1.1rem;
+}
+.btn3:hover a{
+    color: #039d5c;
+    
 }
 #gal{
     padding: 8vw 8vw 4vw 8vw;
